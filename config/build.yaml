@@ -1,0 +1,5 @@
+---
+# Este arquivo informa ao ZMK qual hardware compilar.
+include:
+  - board: nice_nano_v2    # O seu controlador (Nice!Nano v2)
+    shield: scotto9          # A sua PCB (Scotto9). O ZMK já sabe os pinos dele.
